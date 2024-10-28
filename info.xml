@@ -18,15 +18,17 @@
   <version>1.2</version>
   <develStage>stable</develStage>
   <compatibility>
-    <ver>5.0</ver>
-    <ver>5.40</ver>
+    <ver>5.45</ver>
   </compatibility>
   <comments/>
   <civix>
     <namespace>CRM/Countylookup</namespace>
-    <format>23.02.1</format>
+    <format>24.09.1</format>
   </civix>
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
+  <mixins>
+    <mixin>entity-types-php@2.0.0</mixin>
+  </mixins>
 </extension>
